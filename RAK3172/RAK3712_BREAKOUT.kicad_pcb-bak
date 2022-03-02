@@ -230,7 +230,7 @@
     (descr "Through hole straight pin header, 1x14, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x14 2.54mm single row")
     (path /621FB759)
-    (fp_text reference J2 (at -6.33588 -1.07508) (layer F.SilkS)
+    (fp_text reference J2 (at -7.07248 -1.12588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x14_Male (at 0 35.35) (layer F.Fab)

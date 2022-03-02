@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "RAK3712_BREAKOUT"
+Title "RAK3172_BREAKOUT"
 Date ""
 Rev ""
 Comp "Galopago"
