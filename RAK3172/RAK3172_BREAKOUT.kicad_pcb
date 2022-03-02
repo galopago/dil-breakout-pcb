@@ -167,7 +167,7 @@
     (tags "LoRa LoRaWAN RAK3712")
     (path /621FD6BE)
     (attr smd)
-    (fp_text reference U1 (at -11.43 -20.32) (layer F.SilkS)
+    (fp_text reference U1 (at -8.33128 9.85344) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RAK3172 (at 0 10.16) (layer F.Fab)
