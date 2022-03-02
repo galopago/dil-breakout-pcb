@@ -24,12 +24,26 @@
       (path pcb 0  79400 -86760  50000 -86760  50000 -50000  79400 -50000
             79400 -86760)
     )
-    (keepout "" (polygon F.Cu 0  69545.2 -74884.3  57261.8 -74853.8  57256.7 -61910  69651.9 -61843.9
-            69545.2 -74884.3))
+    (keepout "" (polygon F.Cu 0  70345.2 -78784.3  58061.8 -78753.8  58056.7 -65810  70451.9 -65743.9
+            70345.2 -78784.3))
     (keepout "" (polygon F.Cu 0  91800.7 -49458.9  92242.6 -87208.4  78547 -88534.2  78328.5 -49530
             91800.7 -49458.9))
     (keepout "" (polygon F.Cu 0  50876.2 -48158.4  50871.1 -87691  40492.7 -88021.2  40957.5 -47447.2
             50876.2 -48158.4))
+    (keepout "" (polygon B.Cu 0  50850.8 -48493.7  50876.2 -87249  40452 -87284.6  41087 -48427.6
+            50850.8 -48493.7))
+    (keepout "" (polygon B.Cu 0  91724.5 -50022.8  92237.6 -87213.4  78557.1 -87213.4  78333.6 -50134.5
+            91724.5 -50022.8))
+    (keepout "" (polygon F.Cu 0  71650.8 -64529.8  71706.6 -65891.2  68435.1 -65647.4  68491 -64519.6
+            71650.8 -64529.8))
+    (keepout "" (polygon F.Cu 0  60083.6 -65728.7  56756.2 -65713.4  56796.8 -64519.6  60073.4 -64611.1
+            60083.6 -65728.7))
+    (keepout "" (polygon F.Cu 0  64005.4 -78926.5  64061.2 -80034  56766.4 -79993.3  56751.1 -78225.5
+            64005.4 -78926.5))
+    (keepout "" (polygon F.Cu 0  71701.6 -78261  71666 -80049.2  68460.5 -80028.9  68419.9 -78814.8
+            71701.6 -78261))
+    (keepout "" (polygon F.Cu 0  71721.9 -71154.1  71737.1 -74903.2  70472.2 -74918.4  70548.4 -71133.8
+            71721.9 -71154.1))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -45,10 +59,10 @@
       (place J1 52000 -51870 front 0 (PN Conn_01x14_Male))
     )
     (component RAKWIRELESS:RAK3712
-      (place U1 63430 -68380 front 0 (PN RAK3712))
+      (place U1 64130 -72280 front 0 (PN RAK3712))
     )
     (component "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
-      (place REF** 66319.4 -81752.4 front 270 (PN "OSHW-Symbol_6.7x6mm_SilkScreen"))
+      (place REF** 63398.4 -54376.3 front 270 (PN "OSHW-Symbol_6.7x6mm_SilkScreen"))
     )
   )
   (library
@@ -243,10 +257,7 @@
     (class kicad_default "" /ICPIN01 /ICPIN02 /ICPIN03 /ICPIN04 /ICPIN05 /ICPIN06
       /ICPIN07 /ICPIN08 /ICPIN09 /ICPIN10 /ICPIN11 /ICPIN12 /ICPIN13 /ICPIN14
       /ICPIN15 /ICPIN16 /ICPIN19 /ICPIN20 /ICPIN21 /ICPIN22 /ICPIN24 /ICPIN25
-      /ICPIN26 /ICPIN27 /ICPIN29 /ICPIN30 /ICPIN31 /ICPIN32 "Net-(J3-Pad1)"
-      "Net-(J3-Pad10)" "Net-(J3-Pad11)" "Net-(J3-Pad12)" "Net-(J3-Pad13)"
-      "Net-(J3-Pad14)" "Net-(J3-Pad2)" "Net-(J3-Pad3)" "Net-(J3-Pad4)" "Net-(J3-Pad5)"
-      "Net-(J3-Pad6)" "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J3-Pad9)"
+      /ICPIN26 /ICPIN27 /ICPIN29 /ICPIN30 /ICPIN31 /ICPIN32
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
