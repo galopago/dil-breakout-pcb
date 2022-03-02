@@ -1,4 +1,4 @@
-16924283259436234
+16924276237355234
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65975,12 +65975,12 @@ Potentiometer vertical Vishay T73YP
 3
 3
 RAKWIRELESS
-RAK3712
-RAK3712 LPWAN Module https://site-file.fomillesite.com/1260815565112336386/1427562149389201410.pdf
-LoRa LoRaWAN RAK3712
+RAK11300
+RAK11300 LPWAN Module https://site-file.fomillesite.com/1260815565112336386/1427562149389201410.pdf
+LoRa LoRaWAN RAK11300
 0
-32
-32
+46
+46
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
