@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name RAKWIRELESS)(type Legacy)(uri ${KIPRJMOD}/library/RAKWIRELESS.lib)(options "")(descr ""))
+  (lib (name RAK3172_BREAKOUT-rescue)(type Legacy)(uri ${KIPRJMOD}/RAK3172_BREAKOUT-rescue.lib)(options "")(descr ""))
 )
