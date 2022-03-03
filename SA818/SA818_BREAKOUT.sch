@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "SA818 DIL"
+Date ""
+Rev ""
+Comp "Galopago"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NICERF:SA818 U1
+U 1 1 6154D233
+P 5850 3850
+F 0 "U1" H 5850 4831 50  0000 C CNN
+F 1 "SA818" H 5850 4740 50  0000 C CNN
+F 2 "NICERF:SA818" H 6050 4150 50  0001 C CNN
+F 3 "https://site-file.fomillesite.com/1260815565112336386/1427562149389201410.pdf" H 6050 4150 50  0001 C CNN
+	1    5850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x09_Male J1
+U 1 1 61550B19
+P 4050 3850
+F 0 "J1" H 4158 4431 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 4158 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4050 3850 50  0001 C CNN
+F 3 "~" H 4050 3850 50  0001 C CNN
+	1    4050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J2
+U 1 1 6155211F
+P 4500 5600
+F 0 "J2" H 4550 6217 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 4550 6126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Horizontal" H 4500 5600 50  0001 C CNN
+F 3 "~" H 4500 5600 50  0001 C CNN
+	1    4500 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3650 4900 3650
+Wire Wire Line
+	4800 3650 4800 3450
+Wire Wire Line
+	4800 3450 4250 3450
+Wire Wire Line
+	5250 3750 4850 3750
+Wire Wire Line
+	4750 3750 4750 3550
+Wire Wire Line
+	4750 3550 4250 3550
+Wire Wire Line
+	5250 3850 4800 3850
+Wire Wire Line
+	4700 3850 4700 3650
+Wire Wire Line
+	4700 3650 4250 3650
+Wire Wire Line
+	4250 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 4450
+Wire Wire Line
+	4650 4450 4750 4450
+Wire Wire Line
+	5250 4350 4700 4350
+Wire Wire Line
+	4600 4350 4600 3850
+Wire Wire Line
+	4600 3850 4250 3850
+Wire Wire Line
+	5250 4250 4550 4250
+Wire Wire Line
+	4550 4250 4550 3950
+Wire Wire Line
+	4550 3950 4250 3950
+Wire Wire Line
+	5850 4650 4450 4650
+Wire Wire Line
+	4700 5200 6850 5200
+Wire Wire Line
+	6850 5200 6850 3650
+Wire Wire Line
+	6850 3650 6450 3650
+Wire Wire Line
+	5250 3950 5100 3950
+Wire Wire Line
+	5100 3950 5100 5300
+Wire Wire Line
+	5100 5300 4700 5300
+Wire Wire Line
+	6450 3550 6950 3550
+Wire Wire Line
+	6950 3550 6950 5400
+Wire Wire Line
+	6950 5400 4700 5400
+Wire Wire Line
+	4700 5500 5150 5500
+Wire Wire Line
+	5150 5500 5150 4050
+Wire Wire Line
+	5150 4050 5250 4050
+Wire Wire Line
+	5250 3450 5050 3450
+Wire Wire Line
+	5050 3450 5050 5600
+Wire Wire Line
+	5050 5600 4700 5600
+Wire Wire Line
+	5250 3350 5000 3350
+Wire Wire Line
+	5000 3350 5000 5700
+Wire Wire Line
+	5000 5700 4700 5700
+Wire Wire Line
+	5250 3550 4950 3550
+Wire Wire Line
+	4950 3550 4950 5800
+Wire Wire Line
+	4950 5800 4700 5800
+Wire Wire Line
+	4700 5900 7050 5900
+Wire Wire Line
+	7050 5900 7050 2850
+Wire Wire Line
+	7050 2850 5850 2850
+Wire Wire Line
+	5850 2850 5850 3050
+Wire Wire Line
+	4700 6000 5850 6000
+Wire Wire Line
+	5850 6000 5850 5100
+Connection ~ 5850 4650
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 61551B05
+P 7550 4150
+F 0 "J3" V 7432 4250 50  0000 L CNN
+F 1 "Conn_Coaxial" V 7523 4250 50  0000 L CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 7550 4150 50  0001 C CNN
+F 3 " ~" H 7550 4150 50  0001 C CNN
+	1    7550 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 6000 7300 6000
+Connection ~ 5850 6000
+$Comp
+L Device:R R1
+U 1 1 6155C0AA
+P 7550 3700
+F 0 "R1" H 7480 3654 50  0000 R CNN
+F 1 "R" H 7480 3745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7480 3700 50  0001 C CNN
+F 3 "~" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 3850 7550 3950
+Wire Wire Line
+	7350 4150 7300 4150
+Wire Wire Line
+	7300 4150 7300 4450
+$Comp
+L Device:R R2
+U 1 1 6156B991
+P 6800 3350
+F 0 "R2" V 7007 3350 50  0000 C CNN
+F 1 "R" V 6916 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 3350 50  0001 C CNN
+F 3 "~" H 6800 3350 50  0001 C CNN
+	1    6800 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 3350 6650 3350
+Wire Wire Line
+	7550 3350 7550 3550
+Wire Wire Line
+	6950 3350 7550 3350
+$Comp
+L Device:R R3
+U 1 1 6157B29B
+P 7850 3350
+F 0 "R3" V 8057 3350 50  0000 C CNN
+F 1 "R" V 7966 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 3350 50  0001 C CNN
+F 3 "~" H 7850 3350 50  0001 C CNN
+	1    7850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6157DDA0
+P 8150 3700
+F 0 "C1" H 8265 3746 50  0000 L CNN
+F 1 "C" H 8265 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8188 3550 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 6157E535
+P 8400 3350
+F 0 "L1" V 8590 3350 50  0000 C CNN
+F 1 "L" V 8499 3350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 3350 50  0001 C CNN
+F 3 "~" H 8400 3350 50  0001 C CNN
+	1    8400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6157ECA2
+P 8700 3700
+F 0 "C2" H 8815 3746 50  0000 L CNN
+F 1 "C" H 8815 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8738 3550 50  0001 C CNN
+F 3 "~" H 8700 3700 50  0001 C CNN
+	1    8700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6157F2AA
+P 9300 3700
+F 0 "C3" H 9415 3746 50  0000 L CNN
+F 1 "C" H 9415 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9338 3550 50  0001 C CNN
+F 3 "~" H 9300 3700 50  0001 C CNN
+	1    9300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 6157F846
+P 9000 3350
+F 0 "L2" V 9190 3350 50  0000 C CNN
+F 1 "L" V 9099 3350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 3350 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+	1    9000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 615885EA
+P 9700 3350
+F 0 "J4" H 9800 3325 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9800 3234 50  0000 L CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 9700 3350 50  0001 C CNN
+F 3 " ~" H 9700 3350 50  0001 C CNN
+	1    9700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3350 7550 3350
+Connection ~ 7550 3350
+Wire Wire Line
+	8000 3350 8150 3350
+Wire Wire Line
+	8150 3550 8150 3350
+Connection ~ 8150 3350
+Wire Wire Line
+	8150 3350 8250 3350
+Wire Wire Line
+	8550 3350 8700 3350
+Wire Wire Line
+	8700 3550 8700 3350
+Connection ~ 8700 3350
+Wire Wire Line
+	8700 3350 8850 3350
+Wire Wire Line
+	9300 3550 9300 3350
+Wire Wire Line
+	9300 3350 9150 3350
+Wire Wire Line
+	9300 3350 9500 3350
+Connection ~ 9300 3350
+Wire Wire Line
+	9700 3550 9700 4450
+Wire Wire Line
+	9700 4450 9300 4450
+Connection ~ 7300 4450
+Wire Wire Line
+	7300 4450 7300 6000
+Wire Wire Line
+	9300 3850 9300 4450
+Connection ~ 9300 4450
+Wire Wire Line
+	9300 4450 8700 4450
+Wire Wire Line
+	8700 3850 8700 4450
+Connection ~ 8700 4450
+Wire Wire Line
+	8150 3850 8150 4450
+Wire Wire Line
+	7300 4450 8150 4450
+Connection ~ 8150 4450
+Wire Wire Line
+	8150 4450 8700 4450
+Wire Wire Line
+	4250 4150 4400 4150
+Wire Wire Line
+	4200 5200 3950 5200
+Wire Wire Line
+	3950 5200 3950 4850
+Wire Wire Line
+	3950 4850 4900 4850
+Wire Wire Line
+	4900 4850 4900 3650
+Connection ~ 4900 3650
+Wire Wire Line
+	4900 3650 4800 3650
+Wire Wire Line
+	4200 5300 3900 5300
+Wire Wire Line
+	3900 5300 3900 4800
+Wire Wire Line
+	3900 4800 4850 4800
+Wire Wire Line
+	4850 4800 4850 3750
+Connection ~ 4850 3750
+Wire Wire Line
+	4850 3750 4750 3750
+Wire Wire Line
+	4200 5400 3850 5400
+Wire Wire Line
+	3850 5400 3850 4750
+Wire Wire Line
+	3850 4750 4800 4750
+Wire Wire Line
+	4800 4750 4800 3850
+Connection ~ 4800 3850
+Wire Wire Line
+	4800 3850 4700 3850
+Wire Wire Line
+	4200 5500 3800 5500
+Wire Wire Line
+	3800 5500 3800 4700
+Wire Wire Line
+	3800 4700 4750 4700
+Wire Wire Line
+	4750 4700 4750 4450
+Connection ~ 4750 4450
+Wire Wire Line
+	4750 4450 5250 4450
+Wire Wire Line
+	4200 5600 3750 5600
+Wire Wire Line
+	3750 5600 3750 4600
+Wire Wire Line
+	4700 4600 4700 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	4700 4350 4600 4350
+Wire Wire Line
+	4200 5700 3700 5700
+Wire Wire Line
+	3700 5700 3700 4550
+Wire Wire Line
+	3700 4550 4550 4550
+Wire Wire Line
+	4550 4550 4550 4250
+Connection ~ 4550 4250
+Wire Wire Line
+	3650 5100 5850 5100
+Connection ~ 5850 5100
+Wire Wire Line
+	5850 5100 5850 4650
+Wire Wire Line
+	4200 5900 3600 5900
+Wire Wire Line
+	3600 5900 3600 4500
+Wire Wire Line
+	3600 4500 4400 4500
+Wire Wire Line
+	4400 4500 4400 4150
+Connection ~ 4400 4150
+Wire Wire Line
+	4400 4150 5250 4150
+Wire Wire Line
+	3750 4600 4700 4600
+Wire Wire Line
+	4250 4250 4450 4250
+Wire Wire Line
+	4450 4250 4450 4650
+NoConn ~ 4250 4050
+Wire Wire Line
+	4200 6000 3650 6000
+Wire Wire Line
+	3650 5100 3650 6000
+NoConn ~ 4200 5800
+$EndSCHEMATC
