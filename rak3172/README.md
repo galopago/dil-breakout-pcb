@@ -26,13 +26,18 @@ The PCB was developed in KiCad V5.1,
 
 ## BREADBOARD
 
-Dual in-line package chip placed with 7.62 mm separation between pin rows
+Pitch compatible with solderless breadboard
 
 ![BREADBOARD](assets/img/breadboard.jpg)
 
-## SMALL MODULE
+## DOUBLE ROW RIGHT ANGLE
 
-An example showing an Arduino nano with 15.24 mm separation between header rows
+Space saver option when enclosure allows it
+
+ A                                 | B                                |                C                  
+-----------------------------------|----------------------------------|-----------------------------------
+![](assets/img/rightanglefront.jpg)|![](assets/img/rightangleside.jpg)|![](assets/img/rightanglerised.jpg)
+
 
 ![BACK](assets/img/small.jpg)
 
