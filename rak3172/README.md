@@ -32,35 +32,24 @@ Pitch compatible with solderless breadboard
 
 ## DOUBLE ROW RIGHT ANGLE
 
-Space saver option when enclosure allows it
+Space saver option when enclosure's height allows it
 
- A                                 | B                                |                C                  
+ FRONT                             | SIDE                             | UPPER                            
 -----------------------------------|----------------------------------|-----------------------------------
 ![](assets/img/rightanglefront.jpg)|![](assets/img/rightangleside.jpg)|![](assets/img/rightangleupper.jpg)
 
+## DOUBLE ROW RISED
 
-![BACK](assets/img/small.jpg)
+Space saver option for battery or additional electronics. Uses long pin headers with spacers
 
-## BIG MODULE
+ SIDE                              | RISED                          
+-----------------------------------|--------------------------------
+![](assets/img/doublerowside.jpg)|![](assets/img/doublerowrised.jpg)
 
-An example showing a NODE MCU V3 with 27.94 mm separation between header rows.
+## PCB
 
-![FRONT](assets/img/big.jpg)
-
-## DOUBLE ROW HEADER MODULE
-
-An example showing an RPI ZERO with 2x20 header with 2.54 mm separation between pins
-
-![FRONT](assets/img/doublerowheader.jpg)
-
-## ADDITIONAL SPACE
-
-Female headers used for easy reuse of the module, gives additional space for small components or modules.
-
-![MODULE](assets/img/space.jpg)
-
-Panelized PCB version 
-
-![PANEL](assets/img/panel.jpg)
+ SINGLE                            | PANEL                          
+-----------------------------------|--------------------------------
+![](assets/img/pcbsingle.jpg)|![](assets/img/pcbpanel.jpg)
 
 
