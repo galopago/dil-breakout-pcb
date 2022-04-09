@@ -36,7 +36,7 @@ Space saver option when enclosure allows it
 
  A                                 | B                                |                C                  
 -----------------------------------|----------------------------------|-----------------------------------
-![](assets/img/rightanglefront.jpg)|![](assets/img/rightangleside.jpg)|![](assets/img/rightanglerised.jpg)
+![](assets/img/rightanglefront.jpg)|![](assets/img/rightangleside.jpg)|![](assets/img/rightangleupper.jpg)
 
 
 ![BACK](assets/img/small.jpg)
