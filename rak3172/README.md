@@ -16,15 +16,15 @@ The PCB was developed in KiCad V5.1,
 * /gerber folder contains ready to manufacture files.
 * /assets folder contains support files for reade.md
 
-## PCB LAYOUT
+## PINOUT
 
-![layout](assets/img/layout.svg)
+![layout](assets/img/pinout.svg)
 
 ## BREADBOARD
 
 Dual in-line package chip placed with 7.62 mm separation between pin rows
 
-![BREADBOARD](assets/img/bradboard.jpg)
+![BREADBOARD](assets/img/breadboard.jpg)
 
 ## SMALL MODULE
 
