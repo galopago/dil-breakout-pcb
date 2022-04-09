@@ -1,6 +1,10 @@
 # BREAKOUT BOARD FOR RAK3172 MODULE
 
-This board can host MCU modules up to 20 pin per row in a double row configuration. The minimum separation between rows is 2.54 mm and the maximum separation between rows is 27.94 mm, so most common types of MCU modules are supported. The board is designed to fit inside a generic 83x58mm waterproof enclosure. 
+This board allow [RAK Wireless 3172 module](assets/pdf/RAK3172.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. the main features are:
+
+* Every pin is accesible
+* Compatible with solderless breadboard
+* Double row header for maximizing free space on prototype boards
 
 ![PCB](assets/img/pcb.jpg)
 
