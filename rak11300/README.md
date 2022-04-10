@@ -1,6 +1,6 @@
 # BREAKOUT BOARD FOR RAK11300 MODULE
 
-This board allows [RAK Wireless 3172 modules](assets/pdf/RAK11300.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. The main features are:
+This board allows [RAK Wireless 11300 modules](assets/pdf/RAK11300.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. The main features are:
 
 * Every pin is accessible
 * Compatible with solderless breadboard
