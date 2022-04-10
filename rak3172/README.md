@@ -1,8 +1,8 @@
 # BREAKOUT BOARD FOR RAK3172 MODULE
 
-This board allow [RAK Wireless 3172 module](assets/pdf/RAK3172.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. the main features are:
+This board allows [RAK Wireless 3172 modules](assets/pdf/RAK3172.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. The main features are:
 
-* Every pin is accesible
+* Every pin is accessible
 * Compatible with solderless breadboard
 * Double row header for maximizing free space on prototype boards
 
@@ -40,7 +40,7 @@ Space saver option when enclosure's height allows it
 
 ## DOUBLE ROW RISED
 
-Space saver option for battery or additional electronics. Uses long pin headers with spacers
+Space saver option for batteries or additional electronics. Uses long pin headers with spacers to reach the maximun allowable height
 
  SIDE                              | RISED                          
 -----------------------------------|--------------------------------
