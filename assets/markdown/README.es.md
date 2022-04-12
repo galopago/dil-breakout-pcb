@@ -6,26 +6,26 @@ Open source breakout boards for "stamp like" rf modules. Good for experimenting 
 
 Lea esto en otros idiomas: [English](../../README.md)
 
-Main features:
+Principales caracteristicas:
 
-* Every pin is accessible
-* Compatible with solderless breadboard
-* Double row header for maximizing free space on prototype boards
+* Todos los pines son accesibles
+* Compatible con protoboards
+* Header de doble hilera para maximizar el espacio libre disponible en tarjetas de prototipado
 
 
 
-Breadboard                              | Space saver right angle                    | Space saver rised                           
+Protoboard                              | Economiza espacio 90 grados                | Economiza espacio elevado
 ----------------------------------------|--------------------------------------------|---------------------------------------------
 ![](/rak3172/assets/img/breadboard.jpg) | ![](/sa818/assets/img/rightangleupper.jpg) | ![](/rak11300/assets/img/doublerowrised.jpg)
 
 
-## Versions
+## Versiones
 
-There are several board versions, each one with different personalities
+Existen varias versiones de la tarjeta, cada una tiene su propia personalidad
 
 
-| HINT     | CHIP                  | LINK                                     
-|----------|-----------------------|--------------------------------------
-| RAK3172  | STM32WLE5CC           | [RAK3172](/rak3172)  
-| RAK11300 | RP2040+SX1262         | [RAK11300](/rak11300)  
-| SA818    | RENESAS MCU ?+RDA1846 | [SA818](/sa818)
+| DESCRIPCION | CHIP                  | ENLACE                                    
+|-------------|-----------------------|-----------------------
+| RAK3172     | STM32WLE5CC           | [RAK3172](/rak3172)  
+| RAK11300    | RP2040+SX1262         | [RAK11300](/rak11300)  
+| SA818       | RENESAS MCU ?+RDA1846 | [SA818](/sa818)
