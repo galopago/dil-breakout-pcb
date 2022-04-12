@@ -1,6 +1,6 @@
 # TARJETA BREAKOUT PARA MODULOS RF
 
-Tarjeta breakout Open source para modulos rf tipo "estampilla". Utiles para experimentar en protoboard o para se usada como sub-tarjeta.
+Tarjeta breakout Open source para modulos rf tipo "estampilla". Utiles para experimentar en protoboard o para ser usada como sub-tarjeta.
 
 ![BREAKBOARDS](/assets/img/breakoutboards.jpg)
 
