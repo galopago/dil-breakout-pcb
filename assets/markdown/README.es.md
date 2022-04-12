@@ -1,6 +1,6 @@
-# BREAKOUT BOARDS FOR RF MODULES
+# TARJETA BREAKOUT PARA MODULOS RF
 
-Open source breakout boards for "stamp like" rf modules. Good for experimenting on a breadboard or to be used as sub-boards.
+Tarjeta breakout Open source para modulos rf tipo "estampilla". Utiles para experimentar en protoboard o para se usada como sub-tarjeta.
 
 ![BREAKBOARDS](/assets/img/breakoutboards.jpg)
 
@@ -14,7 +14,7 @@ Principales caracteristicas:
 
 
 
-Protoboard                              | Economiza espacio 90 grados                | Economiza espacio elevado
+Protoboard                              | Modo economiza espacio 90 grados           | Modo economiza espacio elevado
 ----------------------------------------|--------------------------------------------|---------------------------------------------
 ![](/rak3172/assets/img/breadboard.jpg) | ![](/sa818/assets/img/rightangleupper.jpg) | ![](/rak11300/assets/img/doublerowrised.jpg)
 
