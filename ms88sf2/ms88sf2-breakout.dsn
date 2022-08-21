@@ -1,0 +1,268 @@
+(pcb "/home/oportunidad/Desktop/repos/dil-breakout-pcb/ms88sf2/ms88sf2-breakout.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.5+dfsg1-2build2")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  79400 -86760  50000 -86760  50000 -50000  79400 -50000
+            79400 -86760)
+    )
+    (keepout "" (polygon F.Cu 0  72141.1 -60121.8  70515.5 -60101.5  68701.9 -59989.7  60731.4 -60076.1
+            56327 -60208.2  54716.7 -60264  54706.5 -53233.3  72034.4 -53375.6
+            72141.1 -60121.8))
+    (keepout "" (polygon F.Cu 0  91800.7 -49458.9  92242.6 -87208.4  78547 -88534.2  78328.5 -49530
+            91800.7 -49458.9))
+    (keepout "" (polygon F.Cu 0  50876.2 -48158.4  50871.1 -87691  40492.7 -88021.2  40957.5 -47447.2
+            50876.2 -48158.4))
+    (keepout "" (polygon B.Cu 0  50850.8 -48493.7  50876.2 -87249  40452 -87284.6  41087 -48427.6
+            50850.8 -48493.7))
+    (keepout "" (polygon B.Cu 0  91724.5 -50022.8  92237.6 -87213.4  78557.1 -87213.4  78333.6 -50134.5
+            91724.5 -50022.8))
+    (keepout "" (polygon B.Cu 0  72359.5 -60010  54488.1 -60396.1  54604.9 -52938.7  72283.3 -53106.3
+            72359.5 -60010))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component MINEW:MS88SF2
+      (place U1 63428.9 -65000 front 0 (PN MS88SF2))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical
+      (place J3 77400 -51870 front 0 (PN Conn_01x14_Male))
+      (place J2 74860 -51870 front 0 (PN Conn_01x14_Male))
+      (place J1 52000 -51870 front 0 (PN Conn_01x14_Male))
+    )
+    (component "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
+      (place REF** 60782.2 -56037.5 front 0 (PN "OSHW-Symbol_6.7x6mm_SilkScreen"))
+    )
+  )
+  (library
+    (image MINEW:MS88SF2
+      (outline (path signal 50  9750 -11850  -9750 -11850))
+      (outline (path signal 50  9750 11850  -9750 11850))
+      (outline (path signal 50  -9750 11850  -9750 -11850))
+      (outline (path signal 50  9750 11850  9750 -11850))
+      (outline (path signal 120  -8820 11720  -8000 11720))
+      (outline (path signal 120  8820 10900  8820 11720))
+      (outline (path signal 120  8820 11720  8000 11720))
+      (outline (path signal 120  -8820 -10900  -8820 -11720))
+      (outline (path signal 120  -8000 -11720  -8820 -11720))
+      (outline (path signal 120  8820 -10900  8820 -11720))
+      (outline (path signal 120  8000 -11720  8820 -11720))
+      (outline (path signal 100  -8000 11600  8700 11600))
+      (outline (path signal 100  -8700 -11600  8700 -11600))
+      (outline (path signal 100  8700 11600  8700 -11600))
+      (outline (path signal 100  -8700 10900  -8700 -11600))
+      (outline (path signal 100  -8700 10900  -8000 11600))
+      (pin Rect[T]Pad_2000x800_um 28 8500 4010)
+      (pin Rect[T]Pad_2000x800_um 27 8500 2910)
+      (pin Rect[T]Pad_2000x800_um 26 8500 1810)
+      (pin Rect[T]Pad_2000x800_um 25 8500 710)
+      (pin Rect[T]Pad_2000x800_um 24 8500 -390)
+      (pin Rect[T]Pad_2000x800_um 23 8500 -1490)
+      (pin Rect[T]Pad_2000x800_um 22 8500 -2590)
+      (pin Rect[T]Pad_2000x800_um 21 8500 -3690)
+      (pin Rect[T]Pad_2000x800_um 20 8500 -4790)
+      (pin Rect[T]Pad_2000x800_um 19 8500 -5890)
+      (pin Rect[T]Pad_2000x800_um 18 8500 -6990)
+      (pin Rect[T]Pad_2000x800_um 17 8500 -8090)
+      (pin Rect[T]Pad_2000x800_um 16 8500 -9190)
+      (pin Rect[T]Pad_2000x800_um 15 8500 -10290)
+      (pin Rect[T]Pad_2000x800_um 1 -8500 4010)
+      (pin Rect[T]Pad_2000x800_um 2 -8500 2910)
+      (pin Rect[T]Pad_2000x800_um 3 -8500 1810)
+      (pin Rect[T]Pad_2000x800_um 4 -8500 710)
+      (pin Rect[T]Pad_2000x800_um 5 -8500 -390)
+      (pin Rect[T]Pad_2000x800_um 6 -8500 -1490)
+      (pin Rect[T]Pad_2000x800_um 7 -8500 -2590)
+      (pin Rect[T]Pad_2000x800_um 8 -8500 -3690)
+      (pin Rect[T]Pad_2000x800_um 9 -8500 -4790)
+      (pin Rect[T]Pad_2000x800_um 10 -8500 -5890)
+      (pin Rect[T]Pad_2000x800_um 11 -8500 -6990)
+      (pin Rect[T]Pad_2000x800_um 12 -8500 -8090)
+      (pin Rect[T]Pad_2000x800_um 13 -8500 -9190)
+      (pin Rect[T]Pad_2000x800_um 14 -8500 -10290)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -34800  1800 1800))
+      (outline (path signal 50  -1800 -34800  1800 -34800))
+      (outline (path signal 50  -1800 1800  -1800 -34800))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -34350))
+      (outline (path signal 120  -1330 -1270  -1330 -34350))
+      (outline (path signal 120  -1330 -34350  1330 -34350))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -34290  -1270 635))
+      (outline (path signal 100  1270 -34290  -1270 -34290))
+      (outline (path signal 100  1270 1270  1270 -34290))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x800_um
+      (shape (rect F.Cu -1000 -400 1000 400))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /ICPIN02
+      (pins U1-2 J3-2 J1-2)
+    )
+    (net /ICPIN01
+      (pins U1-1 J3-1 J1-1)
+    )
+    (net /ICPIN22
+      (pins U1-22 J2-7)
+    )
+    (net /ICPIN21
+      (pins U1-21 J2-8)
+    )
+    (net /ICPIN20
+      (pins U1-20 J2-9)
+    )
+    (net /ICPIN19
+      (pins U1-19 J2-10)
+    )
+    (net /ICPIN16
+      (pins U1-16 J2-13)
+    )
+    (net /ICPIN15
+      (pins U1-15 J2-14)
+    )
+    (net /ICPIN13
+      (pins U1-13 J3-13 J1-13)
+    )
+    (net /ICPIN12
+      (pins U1-12 J3-12 J1-12)
+    )
+    (net /ICPIN11
+      (pins U1-11 J3-11 J1-11)
+    )
+    (net /ICPIN10
+      (pins U1-10 J3-10 J1-10)
+    )
+    (net /ICPIN09
+      (pins U1-9 J3-9 J1-9)
+    )
+    (net /ICPIN08
+      (pins U1-8 J3-8 J1-8)
+    )
+    (net /ICPIN07
+      (pins U1-7 J3-7 J1-7)
+    )
+    (net /ICPIN06
+      (pins U1-6 J3-6 J1-6)
+    )
+    (net /ICPIN05
+      (pins U1-5 J3-5 J1-5)
+    )
+    (net /ICPIN04
+      (pins U1-4 J3-4 J1-4)
+    )
+    (net /ICPIN03
+      (pins U1-3 J3-3 J1-3)
+    )
+    (net /ICPIN24
+      (pins U1-24 J2-5)
+    )
+    (net /ICPIN25
+      (pins U1-25 J2-4)
+    )
+    (net /ICPIN26
+      (pins U1-26 J2-3)
+    )
+    (net /ICPIN27
+      (pins U1-27 J2-2)
+    )
+    (net /ICPIN14
+      (pins U1-14 J3-14 J1-14)
+    )
+    (net /ICPIN17
+      (pins U1-17 J2-12)
+    )
+    (net /ICPIN18
+      (pins U1-18 J2-11)
+    )
+    (net /ICPIN23
+      (pins U1-23 J2-6)
+    )
+    (net /ICPIN28
+      (pins U1-28 J2-1)
+    )
+    (class kicad_default "" /ICPIN01 /ICPIN02 /ICPIN03 /ICPIN04 /ICPIN05 /ICPIN06
+      /ICPIN07 /ICPIN08 /ICPIN09 /ICPIN10 /ICPIN11 /ICPIN12 /ICPIN13 /ICPIN14
+      /ICPIN15 /ICPIN16 /ICPIN17 /ICPIN18 /ICPIN19 /ICPIN20 /ICPIN21 /ICPIN22
+      /ICPIN23 /ICPIN24 /ICPIN25 /ICPIN26 /ICPIN27 /ICPIN28 /ICPIN29 /ICPIN30
+      /ICPIN31 /ICPIN32 "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)"
+      "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
+      "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)"
+      "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad23)"
+      "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)"
+      "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)"
+      "Net-(U1-Pad8)" "Net-(U1-Pad9)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
