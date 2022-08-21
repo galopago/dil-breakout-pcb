@@ -1,4 +1,4 @@
-16924284368488234
+16924298113951774
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51372,6 +51372,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MINEW
+MS88SF2
+MS88SF2 BLUETOOTH Module https://www.minew.com/wp-content/uploads/2021/06/MS88SF2_V2.4-nRF52840-Datasheet.pdf
+BLUETOOTH MS88SF2
+0
+32
+32
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -65974,13 +65981,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-RAKWIRELESS
-RAK3172
-RAK3172 LPWAN Module https://site-file.fomillesite.com/1260815565112336386/1427562149389201410.pdf
-LoRa LoRaWAN RAK3172
-0
-32
-32
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

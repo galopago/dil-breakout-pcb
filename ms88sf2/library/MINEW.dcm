@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MS88SF2
+D Bluetooth Module, nRF52840,  MINEW
+K IoT, Bluetooth, RF
+F https://www.minew.com/wp-content/uploads/2021/06/MS88SF2_V2.4-nRF52840-Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
