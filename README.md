@@ -29,3 +29,4 @@ There are several board versions, each one with different personalities
 | RAK3172  | STM32WLE5CC           | [RAK3172](/rak3172)  
 | RAK11300 | RP2040+SX1262         | [RAK11300](/rak11300)  
 | SA818    | RENESAS MCU ?+RDA1846 | [SA818](/sa818)
+| MS88SF2  | nRF52840              | [MS88SF2](/ms88sf2)  
