@@ -1,7 +1,6 @@
 # BREAKOUT BOARD FOR MS88SF2 MODULE
 
-This board allows [Minew MS88SF2 modules](assets/pdf/MS88SF2elp
-e.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. The main features are:
+This board allows [Minew MS88SF2 modules](assets/pdf/MS88SF2.pdf) to be used on breadboard for prototyping. Open source and manufacturing files available. The main features are:
 
 * Every pin is accessible
 * Compatible with solderless breadboard
